@@ -21,13 +21,13 @@ strs[i] contains only UTF-8 characters.'''
 
 class Solution:
 
-    def encode(self, strs: List[str]) -> str:
+    def encode(self, strs: list[str]) -> str:
         res = ""
         for s in strs:
             res += str(len(s)) + "#" + s
         return res
 
-    def decode(self, s: str) -> List[str]:
+    def decode(self, s: str) -> list[str]:
         res_d, i = [], 0
         while i < len(s):
             j = i

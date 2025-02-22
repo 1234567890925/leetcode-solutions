@@ -1,5 +1,5 @@
 class Solution:
-    def arrayPairSum(self, nums: List[int]) -> int:
+    def arrayPairSum(self, nums: list[int]) -> int:
         sorted_nums = nums.sort()
         pairs = []
         min_sum = 0

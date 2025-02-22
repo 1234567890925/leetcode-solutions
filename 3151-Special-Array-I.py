@@ -1,5 +1,5 @@
 class Solution:
-    def isArraySpecial(self, nums: List[int]) -> bool:
+    def isArraySpecial(self, nums: list[int]) -> bool:
         if len(nums) == 1:
             return True
         for i in range(len(nums)-1):
