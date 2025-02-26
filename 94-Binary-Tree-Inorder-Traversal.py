@@ -1,3 +1,15 @@
+#----------------------------------
+'''
+recursion -
+time complexity = o(n) -> we check for each node
+space complexity = O(n)
+
+iteration -
+time complexity = o(n) -> stack and another list - o(n)
+space complexity = O(n)
+'''
+#----------------------------------
+
 # inorder traversal: left -> main node -> right
 #---------------------------------
 # Definition for a binary tree node.

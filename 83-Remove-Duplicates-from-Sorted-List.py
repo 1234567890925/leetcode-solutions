@@ -1,3 +1,13 @@
+#----------------------------------
+'''
+optimised -
+time complexity = o(n) -> 2 while
+space complexity = O(1)
+
+NO OPTIMIZED SOLUTION FOUND
+AN ALTERNATE SOLUTION WITH WHILE IS WRITTER BELOW THE MAIN CODE
+'''
+#----------------------------------
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, val=0, next=None):

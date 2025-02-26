@@ -1,3 +1,13 @@
+#----------------------------------
+'''
+optimised -
+time complexity = o(n) 
+space complexity = O(1)
+
+NO OPTIMIZED SOLUTION FOUND
+AN ALTERNATE SOLUTION WITH WHILE IS WRITTER BELOW THE MAIN CODE
+'''
+#----------------------------------
 class Solution:
     def plusOne(self, digits: List[int]) -> List[int]:
         digits = digits[::-1]

@@ -1,3 +1,13 @@
+#----------------------------------
+'''
+optimised -
+time complexity = o(log n) -> 1 while
+space complexity = O(1)
+
+NO OPTIMIZED SOLUTION FOUND
+AN ALTERNATE SOLUTION WITH WHILE IS WRITTER BELOW THE MAIN CODE
+'''
+#----------------------------------
 class Solution:
     def mySqrt(self, x: int) -> int:
         l, r = 0, x

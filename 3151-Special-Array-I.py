@@ -1,3 +1,9 @@
+#----------------------------------
+'''
+Time Complexity: O(n) - Iterates through the list once.
+Space Complexity: O(1) - Uses only a constant amount of extra space.
+'''
+#----------------------------------
 class Solution:
     def isArraySpecial(self, nums: list[int]) -> bool:
         if len(nums) == 1:

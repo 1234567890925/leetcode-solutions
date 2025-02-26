@@ -1,3 +1,13 @@
+#----------------------------------
+'''
+optimised -
+time complexity = o(n) -> while goes through all items
+space complexity = O(1)
+
+NO OPTIMIZED SOLUTION FOUND
+AN ALTERNATE SOLUTION WITH WHILE IS WRITTER BELOW THE MAIN CODE
+'''
+#----------------------------------
 class Solution:
     def maxProfit(self, prices: list[int]) -> int:
         max_profit = 0

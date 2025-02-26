@@ -1,3 +1,14 @@
+#----------------------------------
+'''
+optimised -
+time complexity = o(n logn) -> sorting takes (nlogn)
+space complexity = O(n) -> 
+
+NO OPTIMIZED SOLUTION FOUND
+AN ALTERNATE SOLUTION WITH WHILE IS WRITTER BELOW THE MAIN CODE
+'''
+#----------------------------------
+
 class Solution:
     def longestConsecutive(self, nums: list[int]) -> int:
         nums_sort = sorted(set(nums))

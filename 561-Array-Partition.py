@@ -1,3 +1,9 @@
+#----------------------------------
+'''
+Time Complexity: O(n log n) - sorting (merge sort) takes O(nlogn)
+Space Complexity: O(n) -  Additional space used for the 'pairs' list.
+'''
+#----------------------------------
 class Solution:
     def arrayPairSum(self, nums: list[int]) -> int:
         sorted_nums = nums.sort()

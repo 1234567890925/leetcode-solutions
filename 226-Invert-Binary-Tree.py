@@ -1,3 +1,9 @@
+#----------------------------------
+'''
+Time Complexity: O(n) - Visits each node once.
+Space Complexity: O(h) - Recursive call stack can go as deep as the height of the tree.
+'''
+#----------------------------------
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):

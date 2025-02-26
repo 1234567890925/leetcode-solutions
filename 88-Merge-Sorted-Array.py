@@ -1,3 +1,13 @@
+#----------------------------------
+'''
+optimised -
+time complexity = o(m+n) -> 2 lists
+space complexity = O(1)
+
+NO OPTIMIZED SOLUTION FOUND
+AN ALTERNATE SOLUTION WITH WHILE IS WRITTER BELOW THE MAIN CODE
+'''
+#----------------------------------
 class Solution:
     def merge(self, nums1: list[int], m: int, nums2: list[int], n: int) -> None:
         """

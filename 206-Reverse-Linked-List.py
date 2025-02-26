@@ -1,3 +1,14 @@
+#----------------------------------
+'''
+iterative -
+time complexity = o(n)
+space complexity = O(1)
+
+recursive -
+time complexity = o(n) -> The recursion continues until it reaches the end of the list
+space complexity = O(n)  -> Each recursive call adds a new frame to the call stack
+'''
+#----------------------------------
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, val=0, next=None):

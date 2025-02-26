@@ -1,3 +1,18 @@
+#----------------------------------
+'''
+recursion dfs -
+time complexity = o(n) 
+space complexity = O(h) -> height of the tree
+
+iteration dfs -
+time complexity = o(n) 
+space complexity = O(h) -> height of the tree
+
+iteration bfs -
+time complexity = o(n)
+space complexity = O(w) -> max width of the tree
+'''
+#----------------------------------
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):

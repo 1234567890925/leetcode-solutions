@@ -1,3 +1,13 @@
+#----------------------------------
+'''
+optimised -
+time complexity = o(log n) -> binary search
+space complexity = O(1)
+
+NO OPTIMIZED SOLUTION FOUND
+AN ALTERNATE SOLUTION WITH WHILE IS WRITTER BELOW THE MAIN CODE
+'''
+#----------------------------------
 class Solution:
     def searchInsert(self, nums: list[int], target: int) -> int:
         left, right = 0, len(nums)-1
