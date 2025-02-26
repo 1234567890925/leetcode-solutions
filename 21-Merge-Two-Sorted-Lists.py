@@ -1,3 +1,14 @@
+#----------------------------------
+'''
+Brute force -
+time complexity = o(m+n) --> 2 lists
+space complexity = O(1)
+
+Recursive - 
+time complexity = o(m+n) --> 2 lists
+space complexity = O(m+n)
+'''
+#----------------------------------
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, val=0, next=None):
@@ -21,3 +32,17 @@ class Solution:
         elif list2:
             tail.next = list2
         return dummy.next
+    
+# recursive:
+class Solution:
+    def mergeTwoLists(self, list1: ListNode, list2: ListNode) -> ListNode:
+        if not list1:
+            return list2
+        if not list2:
+            return list1
+        if list1.val < list2.val:
+            list1.next = self.mergeTwoLists(list1.next, list2)
+            return list1
+        else:
+            list2.next = self.mergeTwoLists(list1, list2.next)
+            return list2

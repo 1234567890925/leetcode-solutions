@@ -18,7 +18,13 @@ class Solution:
             nums.insert(i, removed_ele)
         return product_arr     
 '''
-
+#----------------------------------
+'''
+Brute force-
+time complexity = o(n**2)
+space complexity = O(1)
+'''
+#----------------------------------
 class Solution:
     def productExceptSelf(self, nums: list[int]) -> list[int]:
         result = [1] * (len(nums))

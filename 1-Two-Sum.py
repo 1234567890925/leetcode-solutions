@@ -1,3 +1,13 @@
+#----------------------------------
+'''
+Brute force-
+time complexity = o(n**2)
+space complexity = O(1)
+Hash map -
+time complexity = o(n)
+space complexity = O(n)
+'''
+#----------------------------------
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         indices = {}

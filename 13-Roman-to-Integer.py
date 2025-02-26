@@ -1,3 +1,10 @@
+#----------------------------------
+'''
+Hash map -
+time complexity = o(n) -> while loop, runs half time
+space complexity = O(1)-> yes, hashmap has fixed number of element, and they are less
+'''
+#----------------------------------
 class Solution:
     def romanToInt(self, s: str) -> int:
         letter_map = {

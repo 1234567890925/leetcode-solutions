@@ -1,3 +1,10 @@
+#----------------------------------
+'''
+Brute force -
+time complexity = o(n)
+space complexity = O(n)
+'''
+#----------------------------------
 class Solution:
     def isValid(self, s: str) -> bool:
         stack = []
