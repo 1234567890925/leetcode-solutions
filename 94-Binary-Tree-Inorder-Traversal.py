@@ -9,9 +9,17 @@
 class Solution:
     def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
         # recursive - nested function - o(n)
-    
+        '''res = []
+        def inorder(root):
+            if not root:
+                return
+            inorder(root.left)
+            res.append(root.val)
+            inorder(root.right)
+        inorder(root)
+        return res'''
 
-        # iterative - stack and another list
+        # iterative - stack and another list - o(n)
         res = []
         stack = []
         curr = root
