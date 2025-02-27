@@ -1,3 +1,9 @@
+#----------------------------------
+'''
+Time Complexity: O(n) - for
+Space Complexity: O(n) - char set 
+'''
+#----------------------------------
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         res = 0
