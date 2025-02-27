@@ -31,6 +31,6 @@ class Solution:
                 return False
             char_count[char] -= 1
             if char_count[char] == 0:
-                del char_count[char]
+                del char_count[char] #char_count[] becomes 0, so we remove it
         
         return len(char_count) == 0
