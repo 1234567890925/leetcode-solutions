@@ -24,8 +24,8 @@ class Solution:
         char_count = {}
         
         for char in s:
-            char_count[char] = char_count.get(char, 0) + 1
-        
+            #looks up value for char in hashmap, +1 adds the char to hashmap
+            char_count[char] = char_count.get(char, 0) + 1 
         for char in t:
             if char not in char_count:
                 return False
