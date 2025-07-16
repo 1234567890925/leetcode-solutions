@@ -1,11 +1,15 @@
-class Solution:
-    def kidsWithCandies(self, candies: List[int], extraCandies: int) -> List[bool]:
-        res = []
-        max_candies = max(candies)
-        for i in candies:
-            total_candies_i_has = i + extraCandies
-            if total_candies_i_has >= max_candies:
-                res.append(True)
+class Solution(object):
+    def kidsWithCandies(self, candies, extraCandies):
+        """
+        :type candies: List[int]
+        :type extraCandies: int
+        :rtype: List[bool]
+        """
+        result = []
+        for i in range(0, len(candies)):
+            new_c = candies[i] + extraCandies
+            if new_c >= max(candies):
+                result.append(True)
             else:
-                res.append(False)
-        return res
+                result.append(False)
+        return result
