@@ -19,3 +19,14 @@ class Solution(object):
             if s[right] not in vowels:
                 right -= 1
         return ''.join(s)
+
+#brute force:
+'''
+class Solution(object):
+    def reverseWords(self, s):
+        """
+        :type s: str
+        :rtype: str
+        """
+        return ' '.join(reversed(s.split()))
+'''
